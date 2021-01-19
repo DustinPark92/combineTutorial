@@ -13,6 +13,7 @@
 		DA1FE54125B6A3CA0084FABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1FE53F25B6A3CA0084FABD /* Main.storyboard */; };
 		DA1FE54325B6A3CD0084FABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1FE54225B6A3CD0084FABD /* Assets.xcassets */; };
 		DA1FE54625B6A3CD0084FABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1FE54425B6A3CD0084FABD /* LaunchScreen.storyboard */; };
+		DA1FE55125B6A5590084FABD /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1FE55025B6A5590084FABD /* MyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		DA1FE54225B6A3CD0084FABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1FE54525B6A3CD0084FABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA1FE54725B6A3CD0084FABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1FE54E25B6A3E00084FABD /* combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combine.playground; sourceTree = "<group>"; };
+		DA1FE55025B6A5590084FABD /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +59,11 @@
 		DA1FE53825B6A3CA0084FABD /* combineTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DA1FE54E25B6A3E00084FABD /* combine.playground */,
 				DA1FE53925B6A3CA0084FABD /* AppDelegate.swift */,
 				DA1FE53B25B6A3CA0084FABD /* SceneDelegate.swift */,
 				DA1FE53D25B6A3CA0084FABD /* ViewController.swift */,
+				DA1FE55025B6A5590084FABD /* MyViewModel.swift */,
 				DA1FE53F25B6A3CA0084FABD /* Main.storyboard */,
 				DA1FE54225B6A3CD0084FABD /* Assets.xcassets */,
 				DA1FE54425B6A3CD0084FABD /* LaunchScreen.storyboard */,
@@ -139,6 +144,7 @@
 			files = (
 				DA1FE53E25B6A3CA0084FABD /* ViewController.swift in Sources */,
 				DA1FE53A25B6A3CA0084FABD /* AppDelegate.swift in Sources */,
+				DA1FE55125B6A5590084FABD /* MyViewModel.swift in Sources */,
 				DA1FE53C25B6A3CA0084FABD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
